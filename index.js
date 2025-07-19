@@ -12,8 +12,8 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 const nodemailer = require("nodemailer");
 const axios = require('axios');
-const API_KEY_PLUGNOTAS = process.env.API_KEY_PLUGNOTAS;
-const BASE_URL_PLUGNOTAS = process.env.BASE_URL_PLUGNOTAS;  // ou a URL correta da API
+//const API_KEY_PLUGNOTAS = process.env.API_KEY_PLUGNOTAS;
+//const BASE_URL_PLUGNOTAS = process.env.BASE_URL_PLUGNOTAS;  // ou a URL correta da API
 const logInfo = require('./utils/logger');
 
 const app = express();
@@ -149,6 +149,12 @@ function criarZip() {
     // Lista de arquivos PDF e PNG
     const basePath = path.join(__dirname, "private", "en");
     const files = [
+      "PLR-License.txt",
+      "3D.png",
+      "FitnessPsychology.pdf",
+      "Flat.jpg",
+      "Host-a-Website-on-Rendercom-Using-a-Cloned-GitHub-Repository.pdf",
+      "How-to-Host-a-Nodejs-Web-Server-on-Render.pdf",
       "Attention.pdf",
       "Creating-Amazing-Ebooks-with-Gammaapp-and-ChatGPT.pdf",
       "Creating-Your-eBook-A-Practical-Guide-to-Editing-HTML-and-CSS.pdf",
@@ -341,10 +347,10 @@ app.post('/checkout', async (req, res) => {
       line_items: [{
         price_data: {
           currency: 'usd',
-          unit_amount: 19790,
+          unit_amount: 6790,
           product_data: {
-            name: 'Méthod – Start as a Digital Entrepreneur',
-            images: ['https://github.com/josuefsy21/images/blob/main/img.jpg?raw=true'],
+            name: 'Méthod – Profit Sprinter',
+            images: ['https://raw.githubusercontent.com/josuefsy21/images/refs/heads/main/mok2.webp'],
             description: "With your purchase, you'll receive an optimized sales page, Stripe-integrated checkout, and an automatic email delivery system for your customers. Everything ready for you to start selling quickly!"
           }
         },
