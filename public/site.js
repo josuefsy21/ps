@@ -2,7 +2,7 @@
 // Inicializando o player Wistia
 window._wq = window._wq || [];
 _wq.push({
-  id: "g1kh8kg6bp",
+  id: "5voup8ytmv",
   onReady: function (video) {
     video.bind("timechange", function (t) {
       // 486

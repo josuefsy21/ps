@@ -209,9 +209,9 @@ iframe {
   max-width: 890px;
   margin: auto;
 }
-wistia-player[media-id="g1kh8kg6bp"]:not(:defined) {
+wistia-player[media-id="5voup8ytmv"]:not(:defined) {
   background: center / contain no-repeat
-    url("https://fast.wistia.com/embed/medias/g1kh8kg6bp/swatch");
+    url("https://fast.wistia.com/embed/medias/5voup8ytmv/swatch");
   display: block;
   filter: blur(5px);
   padding-top: 56.25%;
