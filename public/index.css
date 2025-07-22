@@ -20,7 +20,7 @@ header {
 }
 
 span {
-  color: #2949e5;
+  color: #ff0000;
 }
 
 header h1 {
@@ -149,10 +149,10 @@ iframe {
   border-radius: 10px;
   /* border-radius: 40px; */
   /* background: linear-gradient(135deg, #48ff00, #E100FF); */
-  /* background-color: #2949e5; */
+  /* background-color: #ff0000; */
   /* background-color: #4169e1;
        */
-  background-color: #2949e5;
+  background-color: #ff0000;
   color: white;
   border: none;
   cursor: not-allowed;
@@ -167,7 +167,7 @@ iframe {
   /* background: linear-gradient(135deg, #6c00d8, #bf00d8); */
   /* background-color: #c00303; */
   /* background-color: #2d58da; */
-  background-color: #0505aa;
+  background-color: #9e0303;
   transition: transform 0.2s ease;
 }
 
@@ -177,9 +177,9 @@ iframe {
   border-radius: 10px;
   /* border-radius: 40px; */
   /* background: linear-gradient(135deg, #48ff00, #E100FF); */
-  /* background-color: #2949e5; */
+  /* background-color: #ff0000; */
   /* background-color: #4169e1; */
-  background-color: #2949e5;
+  background-color: #ff0000;
   color: white;
   border: none;
   cursor: pointer;
@@ -194,7 +194,7 @@ iframe {
   /* background: linear-gradient(135deg, #6c00d8, #bf00d8); */
   /* background-color: #c00303; */
   /* background-color: #2d58da; */
-  background-color: #0505aa;
+  background-color: #9e0303;
   transition: transform 0.2s ease;
 }
 
